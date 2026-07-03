@@ -9,9 +9,9 @@
   /* ------------------------------------------------------------
      CONFIG — fill these two values at deploy time
      ------------------------------------------------------------ */
-  var WEB3FORMS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY'; // free key from https://web3forms.com — submissions arrive at your email
+  var WEB3FORMS_KEY = 'b2431694-f251-4a4e-a54e-59880995c42d'; // free key from https://web3forms.com — submissions arrive at your email
   var WHATSAPP_NUMBER = '916283225517';            // country code + number, no plus sign
-  var IMGBB_KEY = 'YOUR_IMGBB_API_KEY';            // free key from https://api.imgbb.com — hosts customer reference images so a link travels in the quote
+  var IMGBB_KEY = '850b2baf56a789f76d14b75e1036a654';            // free key from https://api.imgbb.com — hosts customer reference images so a link travels in the quote
 
   /* ------------------------------------------------------------
      Cart storage — localStorage with safe in-memory fallback
