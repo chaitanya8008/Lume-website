@@ -48,4 +48,4 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
-Sitemap: https://lume.co.in/sitemap.xml
+Sitemap: https://www.lume.co.in/sitemap.xml

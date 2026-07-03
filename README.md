@@ -59,3 +59,7 @@ Honest expectation: page-1 rankings for "LED mirror manufacturer Panchkula" type
 - `css/lume.css`, `js/lume.js` — shared styles and cart/checkout logic
 - `robots.txt`, `sitemap.xml`, `llms.txt`, `vercel.json` — SEO & hosting config
 - `images/` — all 59 catalogue photos, renamed for SEO, web-compressed
+
+## Video
+`videos/` holds the workshop machine video (compressed 31 MB → 2.5 MB MP4 + 2.2 MB WebM fallback, poster frame included). It plays muted on loop on `trade.html`. To swap footage later, replace both files keeping the same names, or re-run:
+`ffmpeg -i input.mp4 -vf "scale=720:1280" -c:v libx264 -crf 27 -preset slow -an -movflags +faststart videos/lume-fibre-laser-frosting-workshop.mp4`

@@ -1,6 +1,6 @@
 # Lume LED Mirrors
 
-> Lume is a custom LED mirror manufacturer based in Panchkula, Haryana, India, operating under Elite Enterprises. Lume builds designer LED mirrors made to order — any shape, any size, any frosting pattern — and also runs a trade laser-frosting service for other glass, mirror and furniture businesses. Website: https://lume.co.in
+> Lume is a custom LED mirror manufacturer based in Panchkula, Haryana, India, operating under Elite Enterprises. Lume builds designer LED mirrors made to order — any shape, any size, any frosting pattern — and also runs a trade laser-frosting service for other glass, mirror and furniture businesses. Website: https://www.lume.co.in
 
 ## What Lume makes
 
@@ -14,13 +14,13 @@
 
 - For wholesalers, manufacturers, fabricators and interior studios: businesses ship their own glass or mirror panels to Lume, and Lume's fibre laser frosts them to any supplied artwork at ±0.1 mm precision.
 - Supports bulk/volume runs with fast turnaround. The customer's glass and design remain their own.
-- Details: https://lume.co.in/trade.html
+- Details: https://www.lume.co.in/trade.html
 
 ## How to buy
 
 - No prices are published because every mirror is custom. Customers add designs to a quote list on the website (choosing size, light, frame and features), submit it with contact details, and Lume replies with a personalised quote — typically within a working day. There is no online payment and no obligation.
-- Browse designs: https://lume.co.in/collections.html
-- Submit a custom design: https://lume.co.in/custom.html
+- Browse designs: https://www.lume.co.in/collections.html
+- Submit a custom design: https://www.lume.co.in/custom.html
 
 ## Contact
 
@@ -31,7 +31,7 @@
 
 ## Pages
 
-- [Home](https://lume.co.in/): overview of both tracks — made-to-order mirrors and the trade frosting service — plus features and FAQ.
-- [Collections](https://lume.co.in/collections.html): 59 designs across all four shape families, each customisable.
-- [Your Design](https://lume.co.in/custom.html): submit a fully custom mirror from any reference.
-- [Trade Frosting](https://lume.co.in/trade.html): the B2B laser-frosting service.
+- [Home](https://www.lume.co.in/): overview of both tracks — made-to-order mirrors and the trade frosting service — plus features and FAQ.
+- [Collections](https://www.lume.co.in/collections.html): 59 designs across all four shape families, each customisable.
+- [Your Design](https://www.lume.co.in/custom.html): submit a fully custom mirror from any reference.
+- [Trade Frosting](https://www.lume.co.in/trade.html): the B2B laser-frosting service.

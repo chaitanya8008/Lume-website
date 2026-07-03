@@ -365,6 +365,20 @@
     initFilters();
     initReveal();
 
+    // hero light demo — chips retint the hero glow
+    var hero = document.querySelector('.hero');
+    if (hero) {
+      document.querySelectorAll('.ld-chip').forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          hero.setAttribute('data-light', chip.dataset.lightmode);
+          document.querySelectorAll('.ld-chip').forEach(function (c) {
+            c.classList.toggle('active', c === chip);
+            c.setAttribute('aria-pressed', c === chip ? 'true' : 'false');
+          });
+        });
+      });
+    }
+
     // nav burger
     var burger = document.querySelector('.nav-burger');
     if (burger) burger.addEventListener('click', function () {
