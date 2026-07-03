@@ -401,21 +401,17 @@ h3 {
 
 /* Light demo — tap chips to retint the hero glow */
 .light-demo {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  flex-wrap: wrap;
   margin-bottom: 24px;
 }
 
 .light-demo .ld-label {
+  display: block;
   font-family: var(--font-mono);
   font-size: 0.6rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--paper-faint);
-  margin-right: 4px;
-  flex-basis: 100%;
+  margin-bottom: 10px;
 }
 
 .ld-chip {
