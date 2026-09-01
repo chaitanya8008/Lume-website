@@ -202,6 +202,8 @@
     if (cart.length === 0) { toast('Your quote list is empty'); return; }
 
     var f = e.target;
+    var bot = f.querySelector('[name="botcheck"]');
+    if (bot && bot.checked) { return; } // honeypot — humans never see this box
     var name = f.querySelector('[name="custName"]').value.trim();
     var phone = f.querySelector('[name="custPhone"]').value.trim();
     var email = f.querySelector('[name="custEmail"]').value.trim();

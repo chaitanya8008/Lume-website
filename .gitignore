@@ -1,0 +1,7 @@
+# local tooling
+.claude/
+.agents/
+
+# OS junk
+Thumbs.db
+.DS_Store

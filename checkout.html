@@ -8,6 +8,8 @@
   <meta name="description"
     content="Send Lume your LED mirror quote list — we reply with a personalised price by email or WhatsApp. No payment, no obligation.">
   <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b0d0f">
   <link rel="canonical" href="https://www.lume.co.in/checkout.html">
   <meta name="robots" content="noindex, follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +17,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/lume.css">
+  <link rel="stylesheet" href="css/lume.css?v=4">
 </head>
 
 <body>
@@ -28,7 +30,9 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="collections.html">Collections</a></li>
           <li><a href="custom.html">Your Design</a></li>
+          <li><a href="bulk-orders.html">Bulk Orders</a></li>
           <li><a href="trade.html">Trade Frosting</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
@@ -63,6 +67,9 @@
               <form id="checkoutForm" class="form-grid"
                 style="background:var(--ink-1); border:1px solid var(--ink-3); border-radius:12px; padding:30px;">
                 <h2 style="font-size:1.5rem;">Where should the quote go?</h2>
+                <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"
+                  style="display:none" aria-hidden="true">
+
                 <div class="field">
                   <label for="coName">Your name</label>
                   <input id="coName" name="custName" type="text" required autocomplete="name">
