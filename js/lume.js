@@ -359,6 +359,93 @@
   }
 
   /* ------------------------------------------------------------
+     Floating WhatsApp button — every page, one tap to chat
+     ------------------------------------------------------------ */
+  function initWhatsAppFloat() {
+    if (document.querySelector('.wa-float')) return;
+    var a = document.createElement('a');
+    a.className = 'wa-float';
+    a.href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' +
+      encodeURIComponent("Hi Lume! I'd like to talk about an LED mirror.");
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.setAttribute('aria-label', 'Chat with Lume on WhatsApp');
+    a.innerHTML = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.02 3 3.32 8.7 3.32 15.72c0 2.24.59 4.42 1.7 6.35L3.2 28.8l6.89-1.8a12.66 12.66 0 0 0 5.95 1.51h.01c7.01 0 12.72-5.7 12.72-12.72C28.77 8.7 23.06 3 16.04 3zm0 23.36h-.01a10.5 10.5 0 0 1-5.36-1.47l-.38-.23-3.98 1.04 1.06-3.88-.25-.4a10.53 10.53 0 0 1-1.62-5.62c0-5.83 4.75-10.57 10.58-10.57 2.83 0 5.48 1.1 7.48 3.1a10.5 10.5 0 0 1 3.1 7.48c0 5.83-4.75 10.57-10.57 10.57zm5.8-7.92c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.72.16-.21.32-.82 1.03-1 1.24-.19.21-.37.24-.69.08-.32-.16-1.34-.5-2.55-1.58-.94-.84-1.58-1.87-1.77-2.19-.18-.32-.02-.49.14-.65.15-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.72-.98-2.36-.26-.62-.52-.54-.72-.55l-.61-.01c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.65 0 1.56 1.14 3.07 1.3 3.29.16.21 2.24 3.42 5.42 4.8.76.33 1.35.52 1.81.67.76.24 1.45.21 2 .13.61-.09 1.88-.77 2.14-1.5.26-.74.26-1.38.19-1.51-.08-.13-.29-.21-.61-.37z"/></svg>';
+    document.body.appendChild(a);
+  }
+
+  /* ------------------------------------------------------------
+     Gallery lightbox — tap any collection image to inspect it
+     ------------------------------------------------------------ */
+  var lbIndex = 0;
+  function visibleCards() {
+    return Array.prototype.filter.call(document.querySelectorAll('.g-card'), function (c) {
+      return c.style.display !== 'none';
+    });
+  }
+
+  function lightboxShow(idx) {
+    var cards = visibleCards();
+    if (!cards.length) return;
+    lbIndex = (idx + cards.length) % cards.length;
+    var card = cards[lbIndex];
+    var img = card.querySelector('img');
+    var btn = card.querySelector('[data-configure]');
+    var lb = document.getElementById('lumeLightbox');
+    lb.querySelector('.lb-img').src = img.src;
+    lb.querySelector('.lb-img').alt = img.alt;
+    lb.querySelector('.lb-name').textContent = btn ? btn.dataset.name : '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function lightboxClose() {
+    var lb = document.getElementById('lumeLightbox');
+    if (lb) { lb.classList.remove('open'); document.body.style.overflow = ''; }
+  }
+
+  function initLightbox() {
+    var cards = document.querySelectorAll('.g-card');
+    if (!cards.length) return;
+    var lb = document.createElement('div');
+    lb.id = 'lumeLightbox';
+    lb.className = 'lightbox';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.setAttribute('aria-label', 'Mirror photo viewer');
+    lb.innerHTML =
+      '<button type="button" class="lb-close" aria-label="Close viewer">✕</button>' +
+      '<button type="button" class="lb-prev" aria-label="Previous mirror">‹</button>' +
+      '<img class="lb-img" src="" alt="">' +
+      '<div class="lb-bar"><span class="lb-name"></span>' +
+      '<button type="button" class="btn btn-lit lb-configure">Customise +</button></div>' +
+      '<button type="button" class="lb-next" aria-label="Next mirror">›</button>';
+    document.body.appendChild(lb);
+
+    cards.forEach(function (card) {
+      card.querySelector('img').addEventListener('click', function () {
+        lightboxShow(visibleCards().indexOf(card));
+      });
+    });
+    lb.querySelector('.lb-close').addEventListener('click', lightboxClose);
+    lb.querySelector('.lb-prev').addEventListener('click', function () { lightboxShow(lbIndex - 1); });
+    lb.querySelector('.lb-next').addEventListener('click', function () { lightboxShow(lbIndex + 1); });
+    lb.querySelector('.lb-configure').addEventListener('click', function () {
+      var card = visibleCards()[lbIndex];
+      var btn = card && card.querySelector('[data-configure]');
+      lightboxClose();
+      if (btn) openConfigurator(btn.dataset.name, btn.dataset.img, btn.dataset.shape);
+    });
+    lb.addEventListener('click', function (e) { if (e.target === lb) lightboxClose(); });
+    document.addEventListener('keydown', function (e) {
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') lightboxClose();
+      if (e.key === 'ArrowLeft') lightboxShow(lbIndex - 1);
+      if (e.key === 'ArrowRight') lightboxShow(lbIndex + 1);
+    });
+  }
+
+  /* ------------------------------------------------------------
      Wire up
      ------------------------------------------------------------ */
   document.addEventListener('DOMContentLoaded', function () {
@@ -366,6 +453,8 @@
     renderCartDrawer();
     initFilters();
     initReveal();
+    initWhatsAppFloat();
+    initLightbox();
 
     // hero light demo — chips retint the hero glow
     var hero = document.querySelector('.hero');
@@ -385,6 +474,12 @@
     var burger = document.querySelector('.nav-burger');
     if (burger) burger.addEventListener('click', function () {
       document.querySelector('.nav-links').classList.toggle('open');
+    });
+    // tapping a nav link closes the mobile menu (matters for same-page anchors)
+    document.querySelectorAll('.nav-links a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        document.querySelector('.nav-links').classList.remove('open');
+      });
     });
 
     // cart open/close

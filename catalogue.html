@@ -24,7 +24,7 @@
   <meta property="og:description"
     content="The full Lume LED Mirrors catalogue — collections, smart features and trade frosting service. Free PDF download.">
   <meta property="og:url" content="https://www.lume.co.in/catalogue.html">
-  <meta property="og:image" content="https://www.lume.co.in/images/rectangle-led-mirror-05.jpg">
+  <meta property="og:image" content="https://www.lume.co.in/images/og-lume.jpg">
   <meta property="og:image:alt" content="Lume LED Mirrors catalogue cover">
   <meta property="og:locale" content="en_IN">
 
@@ -33,7 +33,7 @@
   <meta name="twitter:title" content="Download the LED Mirror Catalogue (PDF) | LUME">
   <meta name="twitter:description"
     content="The full Lume LED Mirrors catalogue — collections, smart features and trade frosting service. Free PDF download.">
-  <meta name="twitter:image" content="https://www.lume.co.in/images/rectangle-led-mirror-05.jpg">
+  <meta name="twitter:image" content="https://www.lume.co.in/images/og-lume.jpg">
   <meta name="twitter:url" content="https://www.lume.co.in/catalogue.html">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -87,8 +87,7 @@
         <button class="nav-cart-btn" type="button" data-open-cart aria-label="Open quote list">
           Quote list <span class="cart-count" aria-hidden="true">0</span>
         </button>
-        <button class="nav-burger" type="button" aria-label="Toggle menu"
-          onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
+        <button class="nav-burger" type="button" aria-label="Toggle menu">☰</button>
       </div>
     </div>
   </header>
@@ -139,11 +138,24 @@
     <div class="wrap footer-inner">
       <span>Lume by Elite Enterprises</span>
       <span><a href="collections.html">Collections</a> · <a href="custom.html">Your design</a> · <a
-          href="trade.html">Trade</a> · <a href="catalogue.html">Catalogue</a></span>
+          href="trade.html">Trade</a> · <a href="catalogue.html">Catalogue</a> · <a href="guide-led-mirror-size.html">Size guide</a> · <a href="guide-led-mirror-light-colour.html">Light guide</a> · <a href="guide-custom-led-mirror-cost.html">Cost guide</a></span>
       <span>See yourself in a better light</span>
     </div>
   </footer>
 
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Quote list">
+    <div class="cart-head">
+      <h3>Your quote list</h3>
+      <button class="modal-close" type="button" data-close-cart aria-label="Close quote list">✕</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-foot">
+      <a class="btn btn-lit btn-wide" href="checkout.html">Request a quote</a>
+      <p class="cart-note">No payment, no obligation — we reply with a personalised quote.</p>
+    </div>
+  </aside>
+
+  <script src="js/lume.js?v=2"></script>
   <script>
     // Auto-trigger the download shortly after the page loads.
     window.addEventListener('load', function () {
