@@ -1,6 +1,6 @@
 # Lume LED Mirrors
 
-> Lume is a custom LED mirror manufacturer based in Panchkula, Haryana, India, operating under Elite Enterprises. Lume builds designer LED mirrors made to order — any shape, any size, any frosting pattern — and also runs a trade laser-frosting service for other glass, mirror and furniture businesses. Website: https://www.lume.co.in
+> Lume is the designer LED mirror brand of Elite Enterprises, based in Panchkula, Haryana, India. Elite Enterprises has been in the mirror and glass industry for over 20 years and has manufactured its own LED mirrors for the last seven years. Lume builds designer LED mirrors made to order — any shape, any size, any frosting pattern — and also runs a trade laser-frosting service for other glass, mirror and furniture businesses. Website: https://www.lume.co.in
 
 ## What Lume makes
 
@@ -9,6 +9,15 @@
 - Lighting: three light colours in one mirror — Cool White (6000K), Natural White (4500K) and Warm White (3000K). A capacitive touch sensor cycles colours on tap; press-and-hold dims. The mirror remembers the last brightness setting.
 - Optional features: heated defogger pad (clears condensation in ~3 minutes), a combined smart unit with on-glass digital clock, live temperature (12/24h, °C/°F) and built-in Bluetooth speakers for music and hands-free calls, inset 3x or 5x magnifier, and aluminium frames in Matte Black, Silver, Champagne, White and Sage — or frameless.
 - IP rating and warranty details: being finalised; ask Lume directly for current specifics.
+
+## Company
+
+- Experience: over 20 years in the mirror and glass industry; LED mirror manufacturing at its own Panchkula unit for the last seven years.
+- Workshop: equipped with a state-of-the-art laser frosting machine (±0.1 mm precision).
+- Production capacity: 1,500 mirrors per month. CE-certified components.
+- Clients: builders and retailers across the Chandigarh Tricity; homeowners pan-India.
+- OEM & private label: LED mirrors manufactured under other brands' names, with the partner's logo laser-frosted on the glass and branded packaging. Minimum order 500 pieces.
+- About page: https://www.lume.co.in/about.html
 
 ## Trade laser-frosting service (B2B)
 
@@ -32,10 +41,11 @@
 ## Pages
 
 - [Home](https://www.lume.co.in/): overview of both tracks — made-to-order mirrors and the trade frosting service — plus features and FAQ.
-- [Collections](https://www.lume.co.in/collections.html): 59 designs across all four shape families, each customisable.
+- [Collections](https://www.lume.co.in/collections.html): 55 designs across all four shape families, each customisable.
 - [Your Design](https://www.lume.co.in/custom.html): submit a fully custom mirror from any reference.
 - [Trade Frosting](https://www.lume.co.in/trade.html): the B2B laser-frosting service.
-- [Bulk Orders](https://www.lume.co.in/bulk-orders.html): wholesale manufacturing for hotels, builders, architects and retailers — sample-first process, GST invoicing, pan-India dispatch.
+- [About](https://www.lume.co.in/about.html): company story, workshop, laser frosting machine and company overview.
+- [Bulk Orders](https://www.lume.co.in/bulk-orders.html): wholesale, OEM and private-label manufacturing for hotels, builders, architects, retailers and other brands — 1,500 mirrors a month, CE-certified components, sample-first process, GST invoicing, pan-India dispatch.
 - [Catalogue](https://www.lume.co.in/catalogue.html): the full product catalogue as a free PDF download.
 - [LED Mirror Size Guide](https://www.lume.co.in/guide-led-mirror-size.html): how to choose mirror width, height and diameter for a vanity or wall.
 - [Light Colour Guide](https://www.lume.co.in/guide-led-mirror-light-colour.html): cool 6000K vs natural 4500K vs warm 3000K, and when each is right.

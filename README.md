@@ -35,7 +35,7 @@ Option B — via GitHub: push this folder to a repo, import it in Vercel. Every 
 
 ## 3. SEO — submit once, then it compounds
 
-Already built in: per-page titles/descriptions, canonical URLs, Open Graph tags, JSON-LD structured data (LocalBusiness, FAQ, Services, Breadcrumbs), an image sitemap covering all 59 mirrors, robots.txt that explicitly allows GPTBot/ClaudeBot/PerplexityBot etc., and llms.txt describing the business for AI assistants.
+Already built in: per-page titles/descriptions, canonical URLs, Open Graph tags, JSON-LD structured data (LocalBusiness, FAQ, Services, Breadcrumbs), an image sitemap covering all 55 mirrors, robots.txt that explicitly allows GPTBot/ClaudeBot/PerplexityBot etc., and llms.txt describing the business for AI assistants.
 
 After the domain is live:
 1. **Google Search Console** (https://search.google.com/search-console) → add lume.co.in → verify via DNS → submit `https://lume.co.in/sitemap.xml`.
@@ -52,13 +52,14 @@ Honest expectation: page-1 rankings for "LED mirror manufacturer Panchkula" type
 ## 5. File map
 
 - `index.html` — home: hero, two tracks, features, previews, FAQ, contact
-- `collections.html` — all 59 designs, filterable, each with "Customise +"
+- `collections.html` — all 55 designs, filterable, each with "Customise +"
 - `custom.html` — bring-your-own-design form
+- `about.html` — company story, workshop videos, company overview
 - `trade.html` — B2B laser-frosting service
 - `checkout.html` — quote list review + send (email + WhatsApp)
 - `css/lume.css`, `js/lume.js` — shared styles and cart/checkout logic
 - `robots.txt`, `sitemap.xml`, `llms.txt`, `vercel.json` — SEO & hosting config
-- `images/` — all 59 catalogue photos, renamed for SEO, web-compressed
+- `images/` — mirror photos (55 shown in the collections grid), renamed for SEO, web-compressed
 
 ## Video
 `videos/` holds the workshop machine video (compressed 31 MB → 2.5 MB MP4 + 2.2 MB WebM fallback, poster frame included). It plays muted on loop on `trade.html`. To swap footage later, replace both files keeping the same names, or re-run:

@@ -1,115 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.lume.co.in/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-05.jpg</image:loc><image:title>Lume designer LED mirror with pixel frosting pattern</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-03.jpg</image:loc><image:title>Capsule LED bathroom mirror with cool white halo</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-05.jpg</image:loc><image:title>Lume Double-Line Cool LED mirror with backlit double frame on a dark stone wall</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-03.jpg</image:loc><image:title>Lume Capsule Full-Length LED mirror with warm halo</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/lume-laser-frosting-machine.jpg</image:loc><image:title>Laser frosting machine at the Lume workshop</image:title></image:image>
   </url>
   <url>
     <loc>https://www.lume.co.in/collections.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-01.jpg</image:loc><image:title>Lume irregular led mirror 01 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-02.jpg</image:loc><image:title>Lume irregular led mirror 02 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-03.jpg</image:loc><image:title>Lume irregular led mirror 03 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-04.jpg</image:loc><image:title>Lume irregular led mirror 04 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-05.jpg</image:loc><image:title>Lume irregular led mirror 05 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-06.jpg</image:loc><image:title>Lume irregular led mirror 06 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-07.jpg</image:loc><image:title>Lume irregular led mirror 07 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-08.jpg</image:loc><image:title>Lume irregular led mirror 08 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-09.jpg</image:loc><image:title>Lume irregular led mirror 09 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-10.jpg</image:loc><image:title>Lume irregular led mirror 10 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-11.jpg</image:loc><image:title>Lume irregular led mirror 11 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-12.jpg</image:loc><image:title>Lume irregular led mirror 12 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-13.jpg</image:loc><image:title>Lume irregular led mirror 13 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-14.jpg</image:loc><image:title>Lume irregular led mirror 14 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-01.jpg</image:loc><image:title>Lume oval capsule led mirror 01 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-02.jpg</image:loc><image:title>Lume oval capsule led mirror 02 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-03.jpg</image:loc><image:title>Lume oval capsule led mirror 03 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-04.jpg</image:loc><image:title>Lume oval capsule led mirror 04 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-01.jpg</image:loc><image:title>Lume rectangle led mirror 01 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-02.jpg</image:loc><image:title>Lume rectangle led mirror 02 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-03.jpg</image:loc><image:title>Lume rectangle led mirror 03 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-04.jpg</image:loc><image:title>Lume rectangle led mirror 04 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-05.jpg</image:loc><image:title>Lume rectangle led mirror 05 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-06.jpg</image:loc><image:title>Lume rectangle led mirror 06 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-07.jpg</image:loc><image:title>Lume rectangle led mirror 07 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-08.jpg</image:loc><image:title>Lume rectangle led mirror 08 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-09.jpg</image:loc><image:title>Lume rectangle led mirror 09 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-10.jpg</image:loc><image:title>Lume rectangle led mirror 10 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-11.jpg</image:loc><image:title>Lume rectangle led mirror 11 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-12.jpg</image:loc><image:title>Lume rectangle led mirror 12 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-13.jpg</image:loc><image:title>Lume rectangle led mirror 13 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-14.jpg</image:loc><image:title>Lume rectangle led mirror 14 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-15.jpg</image:loc><image:title>Lume rectangle led mirror 15 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-16.jpg</image:loc><image:title>Lume rectangle led mirror 16 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-17.jpg</image:loc><image:title>Lume rectangle led mirror 17 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-18.jpg</image:loc><image:title>Lume rectangle led mirror 18 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-19.jpg</image:loc><image:title>Lume rectangle led mirror 19 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-20.jpg</image:loc><image:title>Lume rectangle led mirror 20 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-21.jpg</image:loc><image:title>Lume rectangle led mirror 21 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-22.jpg</image:loc><image:title>Lume rectangle led mirror 22 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-23.jpg</image:loc><image:title>Lume rectangle led mirror 23 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-01.jpg</image:loc><image:title>Lume round led mirror 01 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-02.jpg</image:loc><image:title>Lume round led mirror 02 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-03.jpg</image:loc><image:title>Lume round led mirror 03 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-04.jpg</image:loc><image:title>Lume round led mirror 04 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-05.jpg</image:loc><image:title>Lume round led mirror 05 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-06.jpg</image:loc><image:title>Lume round led mirror 06 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-07.jpg</image:loc><image:title>Lume round led mirror 07 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-08.jpg</image:loc><image:title>Lume round led mirror 08 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-09.jpg</image:loc><image:title>Lume round led mirror 09 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-10.jpg</image:loc><image:title>Lume round led mirror 10 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-11.jpg</image:loc><image:title>Lume round led mirror 11 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-12.jpg</image:loc><image:title>Lume round led mirror 12 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-13.jpg</image:loc><image:title>Lume round led mirror 13 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-14.jpg</image:loc><image:title>Lume round led mirror 14 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-15.jpg</image:loc><image:title>Lume round led mirror 15 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-16.jpg</image:loc><image:title>Lume round led mirror 16 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-17.jpg</image:loc><image:title>Lume round led mirror 17 — custom LED mirror made to order in India</image:title></image:image>
-    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-18.jpg</image:loc><image:title>Lume round led mirror 18 — custom LED mirror made to order in India</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-13.jpg</image:loc><image:title>Backlit Halo — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-03.jpg</image:loc><image:title>Inset Double Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-12.jpg</image:loc><image:title>Geometric Etch — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-10.jpg</image:loc><image:title>Double-Line Natural — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-05.jpg</image:loc><image:title>Double-Line Cool — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-18.jpg</image:loc><image:title>Frameless Portrait — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-09.jpg</image:loc><image:title>Cross-Light Cool — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-04.jpg</image:loc><image:title>Full-Length Deco — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-08.jpg</image:loc><image:title>Soft-Corner Warm — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-22.jpg</image:loc><image:title>L-Frame Corner — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-20.jpg</image:loc><image:title>Double-Line Slat — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-21.jpg</image:loc><image:title>Corner Bracket Cool — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-01.jpg</image:loc><image:title>Pixel Column — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-02.jpg</image:loc><image:title>Geometric Diamond Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-06.jpg</image:loc><image:title>Floral Border Square — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-11.jpg</image:loc><image:title>Greek Key Border — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-17.jpg</image:loc><image:title>Labyrinth Border — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-16.jpg</image:loc><image:title>Butterfly Frost — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-14.jpg</image:loc><image:title>Hollywood Vanity — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-12.jpg</image:loc><image:title>Halo Ring — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-01.jpg</image:loc><image:title>Ring Magnifier — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-13.jpg</image:loc><image:title>Crescent Arc — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-18.jpg</image:loc><image:title>Pebble Dot Ring — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-03.jpg</image:loc><image:title>Sunburst Dot — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-10.jpg</image:loc><image:title>Greek Key Ring — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-05.jpg</image:loc><image:title>Spiral Swirl — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-09.jpg</image:loc><image:title>Half-Moon D-Shape — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-06.jpg</image:loc><image:title>Lattice Ring — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-02.jpg</image:loc><image:title>Double Ring Warm — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-15.jpg</image:loc><image:title>Halo Ring Black — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-08.jpg</image:loc><image:title>Floral Etch Gold — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-04.jpg</image:loc><image:title>Gold Wave Round — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-17.jpg</image:loc><image:title>Greek Key Round Cool — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-02.jpg</image:loc><image:title>Blossom Branch — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-04.jpg</image:loc><image:title>Capsule Greek Key — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-03.jpg</image:loc><image:title>Capsule Full-Length — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-07.jpg</image:loc><image:title>Capsule Marble Cool — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-05.jpg</image:loc><image:title>Oval Black Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-06.jpg</image:loc><image:title>Capsule Gold Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/oval-capsule-led-mirror-01.jpg</image:loc><image:title>Capsule Cool Halo — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/round-led-mirror-14.jpg</image:loc><image:title>Orbit Ring Oval — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-12.jpg</image:loc><image:title>Pebble Backlit — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-03.jpg</image:loc><image:title>Cloud Cool White — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-05.jpg</image:loc><image:title>Cloud Tall — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-11.jpg</image:loc><image:title>Wave Clock — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-13.jpg</image:loc><image:title>Wave Full-Length — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-14.jpg</image:loc><image:title>Organic Blob — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-08.jpg</image:loc><image:title>Pebble Cluster — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-09.jpg</image:loc><image:title>Cloud Black Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-06.jpg</image:loc><image:title>Cloud Wood Frame — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-04.jpg</image:loc><image:title>Cloud Warm Marble — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-02.jpg</image:loc><image:title>Cloud Blush — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-10.jpg</image:loc><image:title>Cloud Vanity Halo — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-01.jpg</image:loc><image:title>Teardrop Pebble — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-07.jpg</image:loc><image:title>Greek Key Free-Form — custom LED mirror made to order by Lume, Panchkula</image:title></image:image>
   </url>
   <url>
-    <loc>https://www.lume.co.in/custom.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lume.co.in/trade.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.lume.co.in/catalogue.html</loc>
-    <lastmod>2026-07-06</lastmod>
+    <loc>https://www.lume.co.in/about.html</loc>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.lume.co.in/images/lume-laser-frosting-machine.jpg</image:loc><image:title>Laser frosting machine at the Lume LED mirror workshop, Panchkula</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/images/laser-frosting-in-progress.jpg</image:loc><image:title>Glass panel being laser-frosted at the Lume workshop</image:title></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.lume.co.in/videos/laser-closeup-poster.jpg</video:thumbnail_loc>
+      <video:title>Laser frosting a mirror panel at the Lume workshop</video:title>
+      <video:description>Close-up of the laser frosting machine at Lume's Panchkula workshop frosting a pattern onto a glass panel.</video:description>
+      <video:content_loc>https://www.lume.co.in/videos/lume-laser-frosting-closeup.mp4</video:content_loc>
+      <video:duration>24</video:duration>
+      <video:publication_date>2026-11-18</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://www.lume.co.in/videos/laser-machine-poster.jpg</video:thumbnail_loc>
+      <video:title>Inside the Lume LED mirror workshop, Panchkula</video:title>
+      <video:description>The laser frosting machine at work on the production floor of Lume's LED mirror manufacturing unit in Panchkula, Haryana.</video:description>
+      <video:content_loc>https://www.lume.co.in/videos/lume-laser-machine-workshop.mp4</video:content_loc>
+      <video:duration>21</video:duration>
+      <video:publication_date>2026-11-18</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://www.lume.co.in/bulk-orders.html</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://www.lume.co.in/images/rectangle-led-mirror-05.jpg</image:loc><image:title>Custom LED mirrors manufactured in bulk by Lume</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.lume.co.in/custom.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://www.lume.co.in/images/irregular-led-mirror-02.jpg</image:loc><image:title>Custom Cloud Blush LED mirror made to order</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.lume.co.in/trade.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://www.lume.co.in/images/lume-laser-frosting-machine.jpg</image:loc><image:title>Trade laser frosting machine for glass and mirror businesses</image:title></image:image>
+    <image:image><image:loc>https://www.lume.co.in/videos/laser-poster.jpg</image:loc><image:title>Lume laser frosting machine at work</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://www.lume.co.in/catalogue.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.lume.co.in/guide-led-mirror-size.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.lume.co.in/guide-led-mirror-light-colour.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.lume.co.in/guide-custom-led-mirror-cost.html</loc>
-    <lastmod>2026-09-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

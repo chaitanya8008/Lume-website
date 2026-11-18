@@ -446,6 +446,39 @@
   }
 
   /* ------------------------------------------------------------
+     Lazy videos — sources load only when scrolled into view,
+     and pause again off-screen (keeps 5–6 MB clips off page load)
+     ------------------------------------------------------------ */
+  function initLazyVideos() {
+    var vids = document.querySelectorAll('video[data-lazy]');
+    if (!vids.length) return;
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function load(v) {
+      if (v.dataset.loaded) return;
+      v.querySelectorAll('source[data-src]').forEach(function (s) { s.src = s.dataset.src; });
+      v.load();
+      v.dataset.loaded = '1';
+    }
+    function play(v) {
+      if (reduce) { v.controls = true; return; }
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { v.controls = true; });
+    }
+    if (!('IntersectionObserver' in window)) {
+      vids.forEach(function (v) { load(v); play(v); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var v = en.target;
+        if (en.isIntersecting) { load(v); play(v); }
+        else if (!v.paused) { v.pause(); }
+      });
+    }, { rootMargin: '200px 0px', threshold: 0.15 });
+    vids.forEach(function (v) { io.observe(v); });
+  }
+
+  /* ------------------------------------------------------------
      Wire up
      ------------------------------------------------------------ */
   document.addEventListener('DOMContentLoaded', function () {
@@ -455,6 +488,7 @@
     initReveal();
     initWhatsAppFloat();
     initLightbox();
+    initLazyVideos();
 
     // hero light demo — chips retint the hero glow
     var hero = document.querySelector('.hero');
