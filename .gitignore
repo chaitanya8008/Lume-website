@@ -8,3 +8,6 @@ Thumbs.db
 
 # scratch
 _tmp/
+
+# private reports
+REPORT-*.md
